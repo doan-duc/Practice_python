@@ -72,3 +72,4 @@ result_test = predict(X_train, y_train, X_test, k = 3)
 print("Test set accuracy: ", accuracy(result_test, y_test))
 result_train = predict(X_train, y_train, X_train, k = 3)
 print("Train set Accuracy: ", accuracy(result_train, y_train))
+
